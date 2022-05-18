@@ -1,5 +1,8 @@
 import java.util.*;
 public class ContainsDuplicate {
+    //Given an integer array nums, return true if any value appears
+    // at least twice in the array, and return false if every element is distinct.
+
     public static boolean containsDuplicate(int[] nums) {
         HashMap<Integer, Integer> p = new HashMap<>();
         for(int i=0; i<nums.length; i++)
