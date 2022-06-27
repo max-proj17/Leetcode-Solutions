@@ -39,7 +39,6 @@ public class Graph {
             //and enqueue
             s = queue.poll();
             System.out.print(s + " "); //We can store this traversal for other purposes, but we will just print for now.
-
             Iterator<Integer> i = adj[s].listIterator(); //iterator for adjacent vertices of a vertex
             while (i.hasNext())
             {
